@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 public class Controller {
-    Service service;
+    private final Service service;
 
     public Controller(Service service) {
         this.service = service;

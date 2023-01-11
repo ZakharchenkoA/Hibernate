@@ -8,7 +8,7 @@ import java.util.List;
 @org.springframework.stereotype.Service
 public class Service {
 
-    public Repository repository;
+    private final Repository repository;
 
     public Service(Repository repository) {
         this.repository = repository;
